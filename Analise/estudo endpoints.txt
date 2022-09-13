@@ -1,0 +1,78 @@
+Estudo dos endpoints:
+
+(1)
+/POST        /usuario/login
+
+request 
+{
+    "email": " ",
+    "senha": " "
+}
+
+response 204
+{
+    "id": 1,
+    "nome": " ",
+    "email": " "
+}
+
+//////////////////////////////////////
+
+(2)
+/POST        /anime/cadastro
+
+request
+{
+    "nome" : " ",
+    "sinopse": " ",
+    "lancamento": " "
+}
+
+response 204
+{
+    "id": 1,
+    "nome" : " ",
+    "sinopse": " ",
+    "lancamento": " "
+}
+
+//////////////////////////////////////
+
+(3)
+/PUT        /anime/alterar/:id
+
+request
+{
+    "nome" : " ",
+    "sinopse": " ",
+    "lancamento": " "
+}
+
+response 204
+-- sem conteudo
+
+//////////////////////////////////////
+
+(4)
+/GET        /anime/consultar
+
+response 204
+[
+    {
+        "nome" : " ",
+        "sinopse": " ",
+        "lancamento": " "
+    }
+]
+
+//////////////////////////////////////
+
+(5)
+/DELETE        /anime/remover/:id
+
+response 204
+-- sem conteudo
+
+//////////////////////////////////////
+
+
